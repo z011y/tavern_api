@@ -123,8 +123,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ORIGIN_WHITELIST = (
-    'https://tavernmusic.now.sh',
-    'https://tavern-ui.now.sh'
+    'https://tavern-ui.now.sh',
 )
 
 JWT_AUTH = {
