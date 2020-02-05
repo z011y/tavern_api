@@ -84,10 +84,10 @@ WSGI_APPLICATION = 'tavern_api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'tavern_db',
-        'USER': 'cameronzollinger',
-        'PASSWORD': 'Santorini17',
-        'HOST': '127.0.0.1',
+        'NAME': 'd1dojna4ru52n5',
+        'USER': 'vfluhjhgjpdcee',
+        'PASSWORD': '6c1cf9a41258ebcdf2b7b167b4b21b9c819ca43ddf4c80e6a320bbb8d2a32392',
+        'HOST': 'ec2-3-213-192-58.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
