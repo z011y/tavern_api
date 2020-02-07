@@ -32,8 +32,8 @@ class VenueDetail(generics.ListAPIView):
 
     def get_queryset(self):
         queryset = Venue.objects.all()
-        name = self.request.query_params.get('name', None)
-        return Venue.objects.filter(name=name)
+        slug = self.request.query_params.get('slug', None)
+        return Venue.objects.filter(slug=slug)
 
 class VenueList(generics.ListAPIView):
     queryset = Venue.objects.all()
