@@ -27,8 +27,8 @@ class VenueDetail(generics.ListAPIView):
     queryset = Venue.objects.all()
     serializer_class = VenueSerializer
     filter_backends = [DjangoFilterBackend]
-    filterset_fields = ['name']
-    search_fields = ['name']
+    filterset_fields = ['slug']
+    search_fields = ['slug']
 
     def get_queryset(self):
         queryset = Venue.objects.all()
