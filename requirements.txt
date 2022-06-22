@@ -41,7 +41,7 @@ marshmallow2==2.20.2
 mccabe==0.6.1
 more-itertools==7.2.0
 mysqlclient==1.4.6
-numpy==1.17.2
+numpy==1.22.0
 parso==0.5.1
 pexpect==4.7.0
 pickleshare==0.7.5
